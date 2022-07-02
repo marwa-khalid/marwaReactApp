@@ -1,0 +1,68 @@
+
+.nav{
+    height: 50px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandName{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(71, 68, 68);
+}
+
+.brandName:hover{
+  color: goldenrod;
+}
+
+.navLeft,
+.navRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navCenter {
+  flex: 6;
+}
+
+.navImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+}
+
+.navListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  
+}
+.navListItem :hover{
+  color: goldenrod;
+}
+
+.navSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
