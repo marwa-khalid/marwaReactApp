@@ -41,7 +41,7 @@ function App() {
        </Route>
 
       <Route path="/"
-        element={<Login/>}>
+        element={<Home/>}>
       </Route>
          
   </Routes>
